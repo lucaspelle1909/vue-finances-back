@@ -9,7 +9,7 @@ type Query {
     """
     month: String,
     type: Operation,
-    accountIds: [ID!],
+    accountsIds: [ID!],
     categoriesIds: [ID!]
   ): [Record!]!
   user: User
