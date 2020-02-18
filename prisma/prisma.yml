@@ -1,5 +1,8 @@
 endpoint: ${env:PRISMA_ENDPOINT}/${env:PRISMA_SERVICE}/${env:PRISMA_STAGE}
+# endpoint: http://prisma.localhost/vue-finances-back/dev
+
 datamodel: datamodel.prisma
+# secret: a1b2c3d4
 secret: ${env:PRISMA_SERVICE_SECRET}
 
 generate:
